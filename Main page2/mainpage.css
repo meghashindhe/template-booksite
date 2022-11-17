@@ -1,0 +1,74 @@
+*{
+    margin: 2%;
+    padding: 0%;
+}
+
+body{
+    background-color: #ACE9F7;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#ironman{
+    background-image: url(ironimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-top: -2rem;
+    margin-left: 18rem;
+    margin-right: 12rem;
+    border-radius: 8px;
+}
+
+
+    
+#imagination{
+    background-image: url(imagination.jpg);
+    background-size: cover;
+    background-position: center ;
+    height:40vh ;
+    grid-column: 5/8;
+    grid-row: 2/3;
+    margin-top:  -2rem;
+    margin-left: -12rem;
+    margin-right: 5rem;
+    border-radius: 8px;
+    
+    
+}
+
+
+
+#wingsoffire{
+    background-image: url(wingsimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    grid-column: 9/12;
+    grid-row: 2/3;
+    margin-top: -2rem;
+    margin-left: -1rem;
+    border-radius: 8px;
+}
+
+#Comicbooks{
+    text-align: center;
+    grid-row: 1/4;
+    grid-column: 6/7;
+    background-color: wheat;
+}
+
+
+#Biographies{
+    text-align: center;
+    background-color: wheat;
+    grid-column: 2/3;
+    grid-row: -3/-2;
+}
+
+#scifibooks{
+    background-color: wheat;
+}

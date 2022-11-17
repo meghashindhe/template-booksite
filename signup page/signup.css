@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#signuppage{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-image: url(loginimg.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#signup{
+    font-family: 'inter';
+    font-style: bold;
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 600px;
+    top: 82px;
+    background: #D5DDE2;
+    border-radius: 20px;
+}
+
+#herosection{
+    font-family: 'Inter';
+    font-style: normal;
+    color: black;
+    font-weight: 700;
+}
+
+#namesection{
+    font-family: 'inter';
+    font-style: bold;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 4rem;
+    left: 3rem;
+    font-size: 1.5rem;
+}
+
+#namebutton{
+    font-family: 'inter';
+    font-style: bold;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#emailsection{
+    font-family: 'inter';
+    font-style: bold;
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    font-size: 1.5rem;
+}
+
+#emailbutton{
+    font-family: 'inter';
+    font-style: bold;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#password{
+    font-family: 'inter';
+    font-style: bold;
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    font-size: 1.5rem;
+}
+
+#passwordbutton{
+    font-family: 'inter';
+    font-style: bold;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#confirmpassword{
+    font-family: 'inter';
+    font-style: bold;
+    position: absolute;
+    top: 16rem;
+    left: 3rem;
+    font-size: 1.5rem;
+}
+
+#confirmbutton{
+    font-family: 'inter';
+    font-style: bold;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#signupbutton{
+    display: inline-block;
+    width: 475px;
+    height: 30px;
+    padding: 20px 50px;
+    text-align: center center;
+    text-transform: capitalize;
+    font-style: bold;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: aliceblue;
+    margin-top: 300px;
+    margin-left: 1rem;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: #669eaf;
+    border: none;
+}
+
+#signupbutton:hover{
+    cursor: pointer;
+    scale: 103%;
+    box-shadow: 4px 4px 4px rgba(143, 158, 172, 0.75);
+    transition-duration: 1s;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: 
+    grid-template-columns: repeat(12, 1fr);
+    background-color: #958679;
+}
+
+#heading{
+    font-family: 'IM Fell Double Pica';
+    font-style: normal;
+    margin-top: -40rem;
+    margin-left: 65rem;
+    height: 3rem;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+#paragraph{
+    font-family: 'Inter';
+    font-style: italic;
+    margin-left: 65rem;
+    margin-top: 10rem;
+    font-weight: 450;
+    font-size: 29px;
+    line-height: 42px;
+    color: #E5E5FC;
+}
+
+#explore{
+    margin-top: 5rem;
+    margin-left: 67rem;
+    width: 25rem;
+    height: 2.4rem;
+    
+    text-align: center;
+    background: #3E64EB;
+    opacity: 0.9;
+    border-radius: 15.045px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+#img{
+    background-image: url(bgmimg.jpg);
+    height: 100vh;
+    background-position: left;
+    background-size: cover;
+    margin-right: 32rem;
+}
+
+#explore:hover{
+    cursor: pointer;
+    scale: 103%;
+    transition-duration: 1s;
+    box-shadow: 4px 4px 4px rgba(red, green, blue, alpha);
+}

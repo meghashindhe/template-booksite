@@ -1,0 +1,171 @@
+*{
+    margin: 2%;
+    padding: 0%;
+}
+
+body{
+    background-color: #563E5A;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#bhagatimg{
+    background-image: url(bhagat-singh.jpg);
+    background-size: cover;
+    background-position:  center;
+   
+    grid-column: 2/3;
+    border-radius: 8px;
+}
+
+#bhagat{
+    grid-column: 2;
+   text-align: center;
+   color: white;
+}
+
+#briefimg{
+    background-image: url(brief.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+
+#brief{
+    grid-column: 4;
+    text-align: center;
+    color: white;
+}
+
+#swamiimg{
+    background-image: url(swamiimg.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 6/7;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+
+#swami{
+    grid-column: 6;
+    text-align: center;
+    color: white;
+}
+
+#geniusimg{
+    background-image: url(geniusimg.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 8/9;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+
+#genius{
+    grid-column: 8;
+    text-align: center;
+    color: white;
+}
+
+#nelsonimg{
+    background-image: url(nelsonimg.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 10/11;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+
+#nelson{
+    grid-column: 10;
+    text-align: center;
+    color: white;
+}
+
+#steveimg{
+    background-image: url(steveimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: -2.5rem;
+    border-radius: 8px;
+}
+
+#steve{
+    grid-column: 2;
+    color: white;
+    text-align: center;
+}
+
+#yogiimg{
+    background-image: url(yogiimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-top: -2.5rem;
+    border-radius: 8px;
+}
+
+#yogi{
+    grid-column: 4;
+    color: white;
+    text-align: center;
+}
+
+#obamaimg{
+    background-image: url(obamaimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    grid-column: 6/7;
+    grid-row: 3/4;
+    margin-top: -2.5rem;
+    border-radius: 8px;
+}
+
+#obama{
+    grid-column: 6;
+    color: white;
+    text-align: center;
+}
+
+#elonimg{
+    background-image: url(elonimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    grid-column: 8/9;
+    grid-row: 3/4;
+    margin-top: -2.5rem;
+    border-radius: 8px;
+}
+
+#elon{
+    grid-column: 8;
+    color: white;
+    text-align: center;
+}
+
+#charlesimg{
+    background-image: url(charlesimg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    grid-column: 10/11;
+    grid-row: 3/4;
+    margin-top: -2.5rem;
+    border-radius: 8px;
+}
+
+#charles{
+    grid-column: 10;
+    color: white;
+    text-align: center;
+}
